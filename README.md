@@ -9,7 +9,11 @@ Applications for this project are:
 
 
 Instructions:
-  From command line on your computer, do "git pull (this url)". After the project files are downloaded, enter the project directory. You now need a python 3.7 environment with the correct dependencies installed. For simplicity, you can try it through ip:   pip install -r requirements.txt  
-  If you have the right environment, it can be run with   python3 example_improved.py 
+  From command line on your computer, do 
+    git pull (this url)
+  After the project files are downloaded, enter the project directory. You now need a python 3.7 environment with the correct dependencies installed. For simplicity, you can try it through ip:   
+    pip install -r requirements.txt  
+  If you have the right environment, it can be run with   
+    python3 example_improved.py 
 
   
