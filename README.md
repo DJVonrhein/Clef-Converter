@@ -1,7 +1,7 @@
 # Clef-Converter
 Takes images of sheet music, and moves the notes up or down the staff, automatically. Useful for changing from bass clef to treble clef, for example.
 
-This work-in-progress python project uses OpenCV to isolate different details in a sheet of piano music. The overall goal is to isolate the notes and the staff (as well as other details) from each other cleanly, and apply to even the most complex sheets.
+This work-in-progress python project uses OpenCV to isolate different details in a sheet of piano music. The overall goal is to isolate the notes and the staff (as well as other details) from each other cleanly, and to have compatibility with even the most complex sheets (i.e. img/remiFullPage.png , a detailed image from Reminiscences de Norma).
 
 Applications for this project are:
   auto-transposing to different keys
