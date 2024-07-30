@@ -6,7 +6,7 @@ This work-in-progress python project uses OpenCV to isolate different details in
  After some improvements, this project can be applied to other things:
    
   - auto-transposing notes to different keys 
-  - reading notes in a different clef.
+  - reading notes in a different clef
 
 
 Instructions:
