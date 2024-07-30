@@ -3,9 +3,10 @@ Takes images of sheet music, and moves the notes up or down the staff, automatic
 
 This work-in-progress python project uses OpenCV to isolate different details in a sheet of piano music. The overall goal is to isolate the notes and the staff (as well as other details) from each other cleanly, and to have compatibility with even the most complex sheets (i.e. img/remiFullPage.png , a detailed image from Reminiscences de Norma).
 
-Applications for this project are:
-  auto-transposing to different keys
-  reading notes in a different clef
+ After some improvements, this project can be applied to other things:
+   
+  - auto-transposing notes to different keys 
+  - reading notes in a different clef.
 
 
 Instructions:
