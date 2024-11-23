@@ -1,13 +1,7 @@
 # Clef-Converter
-Takes images of sheet music, and moves the notes up or down the staff, automatically. Useful for changing from bass clef to treble clef, for example.
+Switching between reading bass clef and treble clef can be tricky. This program takes an image of sheet music and converts all bass clef music to treble, or vice versa. It even works for piano music which usually has both present.
 
-This work-in-progress python project uses OpenCV to isolate different details in a sheet of piano music. The overall goal is to isolate the notes and the staff (as well as other details) from each other cleanly, and to have compatibility with even the most complex sheets (i.e. img/remiFullPage.png , a detailed image from Reminiscences de Norma).
-
- After some improvements, this project can be applied to other things:
-   
-  - auto-transposing notes to different keys 
-  - reading notes in a different clef
-
+This python project uses OpenCV to isolate the symbols present in sheet music in order to move the notes and accidentals and swap clefs for simple reading.
 
 Instructions:
 
@@ -18,9 +12,15 @@ Instructions:
   After the project files are downloaded, enter the project directory. You now need a python 3.7 environment with the correct dependencies installed. For simplicity, you can try it through pip:   
   
     pip install -r requirements.txt  
+
+  Pytesseract is the one library in this project that has an extra step to add to your environment. It requires you to first install tesseract, either through github or homebrew.
     
-  If you have the right environment, it can be run with   
+  Once your environment is set correctly, run clefconverter.py from the command line with either command: 
   
-    python3 example_improved.py 
+    python3 clefconverter.py (input_image_name) (output_image_name) treble 
+    
+    or
+    
+    python3 clefconverter.py (input_image_name) (output_image_name) bass 
 
   
