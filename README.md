@@ -9,15 +9,15 @@ Non-Piano sheeet converted to bass clef example:
 
 <img src="https://github.com/DJVonrhein/Clef-Converter/blob/main/examples/takefive.png" width=500> <img src="https://github.com/DJVonrhein/Clef-Converter/blob/main/examples/takefive-to-bass.png" width=500>
 
-This python project uses OpenCV to isolate the symbols present in sheet music in order to move the notes and accidentals and swap clefs for simple reading.
+At times, words go undetected and end up being shifted by mistake. For readable results, however, the program expects MuseScore or similar quality sheets -- not old, photocopied, or off axis sheets.
 
-Instructions:
+Setup Instructions:
 
   First, download this repo. Either download it as a .ZIP or type this command:
   
     git clone https://github.com/DJVonrhein/Clef-Converter.git
     
-  You now need a python 3.7 environment with the correct dependencies installed. For simplicity, I recommend pip:   
+  You now need a python 3.7+ environment with the correct dependencies installed. For simplicity, I recommend pip:   
   
     pip install -r requirements.txt  
 
@@ -31,4 +31,10 @@ Instructions:
     
     python3 clefconverter.py (input_image_path) (output_image_path) bass 
 
-  
+  The last argument is your desired clef for the entire sheet. 
+
+
+About the Project:
+
+  The project mostly uses OpenCV. It isolates elements of the music in a specific order. This isolation is achieved by thresholding, erosion, template matching and a few other functions.
+
