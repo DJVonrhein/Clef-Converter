@@ -4,9 +4,9 @@ Switching between reading bass clef and treble clef can be tricky. This program 
 Examples below (images get sized up for better template matching):
 
 
-![Input Image](<img src="[https://github.com/favicon.ico](https://github.com/DJVonrhein/Clef-Converter/blob/main/examples/obsessed.png)">)![Output Image](<img src="[https://github.com/favicon.ico](https://github.com/DJVonrhein/Clef-Converter/blob/main/examples/obsessed-to-treble.png)">)
+![Input Image](<img src="https://github.com/DJVonrhein/Clef-Converter/blob/main/examples/obsessed.png">)![Output Image](<img src="https://github.com/DJVonrhein/Clef-Converter/blob/main/examples/obsessed-to-treble.png">)
 
-![Input Image](<img src="[https://github.com/favicon.ico](https://github.com/DJVonrhein/Clef-Converter/blob/main/examples/takefive.png)" >)![Output Image](<img src="[https://github.com/favicon.ico](https://github.com/DJVonrhein/Clef-Converter/blob/main/examples/takefive-to-bass.png)">)
+![Input Image](<img src="https://github.com/DJVonrhein/Clef-Converter/blob/main/examples/takefive.png" >)![Output Image](<img src="https://github.com/DJVonrhein/Clef-Converter/blob/main/examples/takefive-to-bass.png">)
 
 This python project uses OpenCV to isolate the symbols present in sheet music in order to move the notes and accidentals and swap clefs for simple reading.
 
