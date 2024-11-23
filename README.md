@@ -1,5 +1,12 @@
 # Clef-Converter
-Switching between reading bass clef and treble clef can be tricky. This program takes an image of sheet music and converts all bass clef music to treble, or vice versa. It even works for piano music which usually has both present.
+Switching between reading bass clef and treble clef can be tricky. This program takes an image of sheet music and converts all bass clef music to treble, or vice versa. It is even designed to handle piano music which usually has both present.
+
+Examples below (images get sized up for better template matching):
+
+
+![Input Image](<img src="[https://github.com/favicon.ico](https://github.com/DJVonrhein/Clef-Converter/blob/main/examples/obsessed.png)">)![Output Image](<img src="[https://github.com/favicon.ico](https://github.com/DJVonrhein/Clef-Converter/blob/main/examples/obsessed-to-treble.png)">)
+
+![Input Image](<img src="[https://github.com/favicon.ico](https://github.com/DJVonrhein/Clef-Converter/blob/main/examples/takefive.png)" >)![Output Image](<img src="[https://github.com/favicon.ico](https://github.com/DJVonrhein/Clef-Converter/blob/main/examples/takefive-to-bass.png)">)
 
 This python project uses OpenCV to isolate the symbols present in sheet music in order to move the notes and accidentals and swap clefs for simple reading.
 
