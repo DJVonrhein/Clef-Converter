@@ -5,7 +5,7 @@ Piano sheet converted to treble clef example:
 
 <img src="https://github.com/DJVonrhein/Clef-Converter/blob/main/examples/obsessed.png" width=500>  <img src="https://github.com/DJVonrhein/Clef-Converter/blob/main/examples/obsessed-to-treble.png" width=500>
 
-Non-Piano sheeet converted to bass clef example:
+Non-Piano sheet converted to bass clef example:
 
 <img src="https://github.com/DJVonrhein/Clef-Converter/blob/main/examples/takefive.png" width=500> <img src="https://github.com/DJVonrhein/Clef-Converter/blob/main/examples/takefive-to-bass.png" width=500>
 
@@ -25,7 +25,7 @@ Setup Instructions:
     
   Once your environment is set correctly, you can run the program, which is at src/clefconverter.py . From the src directory, these are the commands to run it:
   
-    python3 clefconverter.py (input_image_patah) (output_image_path) treble 
+    python3 clefconverter.py (input_image_path) (output_image_path) treble 
     
     or
     
