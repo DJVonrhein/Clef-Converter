@@ -1,5 +1,5 @@
 # Clef-Converter
-Switching between reading bass clef and treble clef can be tricky. This program takes an image of sheet music and converts all bass clef music to treble, or vice versa. It is even designed to handle piano music which usually has both present.
+Switching between reading bass clef and treble clef can be tricky for many musicians. This program takes an image of sheet music and converts all bass clef music to treble, or vice versa. It is even designed to handle piano music which usually has both present.
 
 Piano sheet converted to treble clef example:
 
